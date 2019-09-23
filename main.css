@@ -312,7 +312,6 @@
     -moz-osx-font-smoothing: grayscale;
     font-family: Roboto, sans-serif;
     background-color: #ccdcdc;
-    background-image: url("/coffee.jpg");
     background-repeat: no-repeat;
     background-position: 100% 100%
   }
@@ -371,7 +370,6 @@
     padding-left: .5rem;
     padding-right: .5rem;
     padding-bottom: 1rem;
-    background: url("/logo.png") bottom no-repeat
   }
   
   .buttons {
