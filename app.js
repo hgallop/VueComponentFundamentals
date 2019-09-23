@@ -46,3 +46,5 @@ new Vue({
         'plan-picker': PlanPickerComponent
     }
 });
+
+//Vue has a lifecycle that can be leveraged to run code.
