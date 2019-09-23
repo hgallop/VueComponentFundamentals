@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    height: 100%;
+    background: white;
+}
+header {
+    padding: 2vw 1vw;
+}
+h1, 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background: #f2f2f2;
+    min-height: 300px;
+    padding: 2vw 1vw;
+}
+footer {
+    padding: 2vw 1vw;
+}

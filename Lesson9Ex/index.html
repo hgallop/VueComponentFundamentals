@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue.js Slots Fundamentals</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="app">
+        <page-layout>
+            <template #header>
+                <h1>Page Title</h1>
+            </template>
+            <p>Some text.</p>
+            <p>Some more text.</p>
+            <template #footer>
+                <p>Some info</p>
+            </template>
+        </page-layout>
+    </div>
+    <script type="text/x-template" id="page-layout-template">
+        <div>
+            <header>
+                <slot name="header"></slot>
+            </header>
+            <main>
+                <slot></slot>
+            </main>
+            <footer>
+                <slot name="footer"></slot>
+            </footer>
+        </div>
+    </script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="app.js"></script>
+</body>
+</html>
